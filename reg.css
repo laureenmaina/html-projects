@@ -1,0 +1,23 @@
+legend{
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+ .originals{
+    width: 40%;
+
+}
+
+label{
+    padding: 20px;
+    width: 20px;
+
+}
+input{
+    float: right;
+
+}
+.form{
+   background-color: #d9a816;
+    width: 60%;
+}

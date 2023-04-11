@@ -1,0 +1,11 @@
+body{
+    background-image: url("Images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: deeppink;
+}
+h1 {
+    color: blue;
+}

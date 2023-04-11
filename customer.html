@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer</title>
+    <link rel="stylesheet" href="customer.css">
+    <script type="text/javascript">
+        function validate() {
+            var Name = document.getElementById("name");
+            var Email = document.getElementById("email");
+            var Investment = document.getElementById("invest");
+            var Date = document.getElementById("date");
+            var Active = document.getElementById("active");
+            var Inactive = document.getElementById("inactive")
+
+            if (Name.value == "" || Email.value == "" || Investment.value == "" || Date.value == "" || Active.value == "" || Inactve.value == "") {
+                alert("No blanks allowed!")
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+
+<form action="formcss.html"  return onsubmit=" return validate()"class="form">
+
+    <fieldset>
+
+        <legend>Customer</legend>
+  <label for="name">Name <sup>*</sup></label>
+  <input type="text" id="name"> <br><br>
+
+  <label for="email">Email <sup>*</sup></label>
+  <input type="email" id="email"> <br><br>
+
+  <label for="invest">Investment</label>
+    <select name="" id="invest">
+        <option value="job">Job</option>
+        <option value="business">Business</option>
+    </select>  <br><br>
+
+    <label for="date">Date Joined <sup>*</sup></label>
+    <input type="date" id="date"> <br><br>
+
+    <label for="active">Active</label>
+    <input type="checkbox" id="active">
+    <label for="inactive">Inactive</label>
+    <input type="checkbox" id="inactive">
+
+    </fieldset>
+    <br><br>
+
+    <input type="submit" value="OK">
+
+
+
+
+</form>
+
+
+
+
+</body>
+</html>

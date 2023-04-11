@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <script type="text/javascript">
+        function validate (){
+            var Name=document.getElementById("name");
+            var Subject=document.getElementById("sub");
+            var Phone=document.getElementById("phone");
+            var Email=document.getElementById("email");
+            var Message=document.getElementById("message");
+
+            if (Name.value==""|| Subject.value==""|| Phone.value==""||Email.value==""||Message.value==""){
+                alert("Fill in the needed details first!")
+                return false;
+            }
+            else{
+                return true;
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+
+
+<form action="Introduction.html" onsubmit=" return validate()">
+
+    <legend>CONTACT US</legend>
+  <input type="text" id="name" placeholder="Name"> <br><br>
+  <input type="text" id="sub" placeholder="Subject"> <br><br>
+  <input type="tel" id="phone" placeholder="Phone"> <br><br>
+  <input type="email" id="email" placeholder="Email"> <br><br>
+  <textarea name="" id="message" cols="28" rows="8" placeholder="Message"></textarea> <br><br>
+
+  <input type="submit" id="submit" value="SUBMIT"> <br><br>
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+</html>

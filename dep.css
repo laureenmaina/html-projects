@@ -1,0 +1,23 @@
+table{
+    height: 200px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 2px solid #8d8484;
+}
+th{
+    background-color: #0a4bef;
+}
+tr:hover{
+    background-color: #5290de;
+}
+tr:nth-child(even){
+    background-color: #627994;
+}
+.head1{
+    color:yellow;
+}
+.head{
+    color: whitesmoke;
+}

@@ -1,0 +1,34 @@
+*{
+    background-color: darkgoldenrod;
+    color: #500808;
+}
+
+
+
+
+
+
+.par{
+    background-color: yellow;
+    color: #0606ef;
+  font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    line-height: 2cm;
+    text-indent: 50px;
+    word-spacing: 5px;
+   cursor: nwse-resize;
+   border: 2px dashed purple;
+    outline: mediumvioletred solid 10px;
+    padding: 20px;
+    margin: 40px;
+}
+.span{
+    color: #d74c0e;
+}
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}

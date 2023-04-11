@@ -1,0 +1,19 @@
+.form{
+    padding: 20px;
+    margin-left: 40px;
+    width: 90%;
+}
+sup{
+    color: #dc0404;
+}
+input[type=submit]{
+    border:2px solid gray;
+    background-color: #9a9797;
+    padding: 10px;
+}
+input{
+    box-sizing: border-box;
+    display: inline-block;
+    border-top-style:double;
+    border-top-color: black;
+}

@@ -1,0 +1,43 @@
+legend{
+    color: white;
+   text-align: center;
+
+
+}
+input[type=submit]{
+    display:inline-block;
+    background-color: black;
+   color: white;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    height: 50px;
+
+
+}
+input[type=text],input[type=email]{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px;
+    width: 20%;
+       border: 2px solid white;
+}
+body{
+    background-image: url("Images/bimage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+input[type=submit]:hover{
+    background-color: #dc0404;
+}
+label{
+    color: white;
+}
+form{
+    padding-bottom: 200px;
+    padding-right: 500px;
+    padding-left: 500px;
+    padding-top: 200px;
+}
